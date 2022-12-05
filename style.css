@@ -1,0 +1,38 @@
+h1 {
+    font-size: 60px;
+}
+#content {
+    border-radius: 15px;
+    margin-left: 30px;
+    width: 450px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.avatar {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0,0, 0.1) 0 10px 10px;
+    margin-left: 250px;
+}
+
+section {
+    margin-top: 200px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+#navigator{
+    width: auto;
+    background-color: yellowgreen;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+}
