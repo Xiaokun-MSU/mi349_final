@@ -85,12 +85,16 @@ li:nth-of-type(4){
 .aboutImg {
     float: left;
     margin-right: 10px;
+    width: 520px;
+    height: 525px;
 }
 
 #infor {
     margin-top: 50px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 28px;
+    padding: 20px;
+    margin: 20px;
 }
 
 .imporInfor {
