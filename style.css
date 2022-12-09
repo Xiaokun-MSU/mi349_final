@@ -112,7 +112,7 @@ input {
 }
 
 input[type=text],select, textarea{
-    width: 1245px;
+    width: 100%;
     padding: 15px 15px;
     border-radius: 10px;
     display: block;
@@ -127,7 +127,7 @@ input[type=text],select, textarea{
 
 input[type=submit] {
     background-color: green ;
-    width: 1245px;
+    width: 100%;
     color:white;
     padding: 15px 15px;
     margin-top: 20px;
