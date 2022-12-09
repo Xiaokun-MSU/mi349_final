@@ -145,6 +145,7 @@ label {
     height: 440px;
     margin-right: 5%;
     margin-top: 10%;
+    margin-left: 2%;
 }
 
 #ComDetail {
@@ -153,3 +154,14 @@ label {
     margin: 20px;
 }
 
+.buttonMe {
+    background-color: green;
+    border:none;
+    color: white;
+    padding: 20px 35px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 37%;
+}
