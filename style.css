@@ -101,4 +101,41 @@ li:nth-of-type(4){
     font-size: 36px;
 }
 
+input {
+    width: 100%;
+}
+
+#contactInfor {
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input[type=text],select, textarea{
+    width: 1245px;
+    padding: 15px 15px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.comment textarea{
+    height: 200px;
+}
+
+input[type=submit] {
+    background-color: green ;
+    width: 1245px;
+    color:white;
+    padding: 15px 15px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 

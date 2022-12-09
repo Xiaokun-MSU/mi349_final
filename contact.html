@@ -18,7 +18,31 @@
             <li class="contact"><a href="contact.html">Contact Me</a></li>  
         </ul>
     </nav>
-    
+    <div id="contactInfor">
+        <form>
+            <label class="firstName">First Name:
+                <input type="text">
+            </label>
+            <label class="lastName">Last Name:
+                <input type="text">
+            </label>
+            <label class="email">Email address:
+                <input type="text">
+            </label>
+            <label class="reason">Reason for contact: </label>
+            <select name="Reason" id="reasons">
+                <option value="Hi">Saying Hi</option>
+                <option value="Contractor">Looking for a contractor</option>
+                <option value="Interview">Interested in an interview</option>
+                <option value="Other">Others</option>
+            </select>
+            <label class="comment">Comment:
+                <textarea name="comment"></textarea>
+            </label>
+            <input type="submit" class="submit" value="Submit"></button>
+        </form>
+    </div>
+
     <script src="function.js"></script>
 </body>
 </html>
