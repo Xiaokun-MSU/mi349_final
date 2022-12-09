@@ -111,7 +111,7 @@ input {
     margin-top: 20px;
 }
 
-input[type=text],select, textarea{
+input[type=text],select, textarea, .buttonClick{
     width: 100%;
     padding: 15px 15px;
     border-radius: 10px;
@@ -121,18 +121,15 @@ input[type=text],select, textarea{
     margin-top: 10px;
 }
 
-.comment textarea{
-    height: 200px;
+.buttonClick{
+    background-color: green;
+    color:white;
+    font-size: 20px;
+    text-align: center;
 }
 
-input[type=submit] {
-    background-color: green ;
-    width: 100%;
-    color:white;
-    padding: 15px 15px;
-    margin-top: 20px;
-    font-size: 20px;
-
+.comment textarea{
+    height: 200px;
 }
 
 label {
@@ -145,7 +142,7 @@ label {
     height: 440px;
     margin-right: 5%;
     margin-top: 10%;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 #ComDetail {
@@ -165,3 +162,6 @@ label {
     cursor: pointer;
     margin-left: 37%;
 }
+
+
+
